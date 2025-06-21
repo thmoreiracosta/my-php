@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-index.css" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Apresente-se...</h1>
+    </header>
+    <section>
+      <form action="./cad.php" method="get">
+        <div>
+          <label for="nome">Nome</label>
+          <input
+            class="nome"
+            type="text"
+            name="name"
+            id="i_name"
+            placeholder="Seu nome"
+          />
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input
+            class="sobrenome"
+            type="text"
+            name="sobrenome"
+            id="i_name_sobrenome"
+            placeholder="Sobrenome"
+          />
+        </div>
+        <input type="submit" value="Enviar" class="button" />
+      </form>
+    </section>
+  </body>
+</html>
